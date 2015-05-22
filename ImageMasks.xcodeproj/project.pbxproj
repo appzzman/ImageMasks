@@ -7,15 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402295091B0F718D002C779C /* emptyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 402295081B0F718D002C779C /* emptyBackground.png */; };
+		4022950A1B0F718D002C779C /* emptyBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 402295081B0F718D002C779C /* emptyBackground.png */; };
+		4022950D1B0F7A88002C779C /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4022950B1B0F7A88002C779C /* black.jpg */; };
+		4022950E1B0F7A88002C779C /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4022950B1B0F7A88002C779C /* black.jpg */; };
+		4022950F1B0F7A88002C779C /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4022950C1B0F7A88002C779C /* white.jpg */; };
+		402295101B0F7A88002C779C /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4022950C1B0F7A88002C779C /* white.jpg */; };
+		402295121B0F80D3002C779C /* skype.png in Resources */ = {isa = PBXBuildFile; fileRef = 402295111B0F80D3002C779C /* skype.png */; };
+		402295131B0F80D3002C779C /* skype.png in Resources */ = {isa = PBXBuildFile; fileRef = 402295111B0F80D3002C779C /* skype.png */; };
+		40229B441B0FB61B002C779C /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40229B411B0FB5DA002C779C /* GPUImage.framework */; };
 		4029AE991B0E7F170061926A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AE981B0E7F170061926A /* AppDelegate.swift */; };
 		4029AE9B1B0E7F170061926A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AE9A1B0E7F170061926A /* ViewController.swift */; };
 		4029AE9E1B0E7F170061926A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4029AE9C1B0E7F170061926A /* Main.storyboard */; };
 		4029AEA01B0E7F170061926A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4029AE9F1B0E7F170061926A /* Images.xcassets */; };
 		4029AEA31B0E7F170061926A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4029AEA11B0E7F170061926A /* LaunchScreen.xib */; };
 		4029AEAF1B0E7F170061926A /* ImageMasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4029AEAE1B0E7F170061926A /* ImageMasksTests.swift */; };
+		4029AEB91B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4029AEB81B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg */; };
+		4029AEBA1B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4029AEB81B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		40229B3E1B0FB5DA002C779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40229B381B0FB5DA002C779C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		40229B401B0FB5DA002C779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40229B381B0FB5DA002C779C /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		40229B421B0FB609002C779C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40229B381B0FB5DA002C779C /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
 		4029AEA91B0E7F170061926A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4029AE8B1B0E7F170061926A /* Project object */;
@@ -26,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		402295081B0F718D002C779C /* emptyBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyBackground.png; sourceTree = "<group>"; };
+		4022950B1B0F7A88002C779C /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		4022950C1B0F7A88002C779C /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
+		402295111B0F80D3002C779C /* skype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skype.png; sourceTree = "<group>"; };
+		40229B381B0FB5DA002C779C /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../Downloads/GPUImage-master/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
 		4029AE931B0E7F170061926A /* ImageMasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4029AE971B0E7F170061926A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4029AE981B0E7F170061926A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +73,7 @@
 		4029AEA81B0E7F170061926A /* ImageMasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4029AEAD1B0E7F170061926A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4029AEAE1B0E7F170061926A /* ImageMasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageMasksTests.swift; sourceTree = "<group>"; };
+		4029AEB81B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tiger-Iris-with-charming-cub-620x586.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40229B441B0FB61B002C779C /* GPUImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +95,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40229B391B0FB5DA002C779C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40229B3F1B0FB5DA002C779C /* libGPUImage.a */,
+				40229B411B0FB5DA002C779C /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4029AE8A1B0E7F170061926A = {
 			isa = PBXGroup;
 			children = (
+				40229B381B0FB5DA002C779C /* GPUImage.xcodeproj */,
 				4029AE951B0E7F170061926A /* ImageMasks */,
 				4029AEAB1B0E7F170061926A /* ImageMasksTests */,
 				4029AE941B0E7F170061926A /* Products */,
@@ -80,8 +129,13 @@
 				4029AE981B0E7F170061926A /* AppDelegate.swift */,
 				4029AE9A1B0E7F170061926A /* ViewController.swift */,
 				4029AE9C1B0E7F170061926A /* Main.storyboard */,
+				4029AEB81B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg */,
+				402295111B0F80D3002C779C /* skype.png */,
 				4029AE9F1B0E7F170061926A /* Images.xcassets */,
 				4029AEA11B0E7F170061926A /* LaunchScreen.xib */,
+				402295081B0F718D002C779C /* emptyBackground.png */,
+				4022950B1B0F7A88002C779C /* black.jpg */,
+				4022950C1B0F7A88002C779C /* white.jpg */,
 				4029AE961B0E7F170061926A /* Supporting Files */,
 			);
 			path = ImageMasks;
@@ -126,6 +180,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				40229B431B0FB609002C779C /* PBXTargetDependency */,
 			);
 			name = ImageMasks;
 			productName = ImageMasks;
@@ -179,6 +234,12 @@
 			mainGroup = 4029AE8A1B0E7F170061926A;
 			productRefGroup = 4029AE941B0E7F170061926A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 40229B391B0FB5DA002C779C /* Products */;
+					ProjectRef = 40229B381B0FB5DA002C779C /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4029AE921B0E7F170061926A /* ImageMasks */,
@@ -187,14 +248,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		40229B3F1B0FB5DA002C779C /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 40229B3E1B0FB5DA002C779C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40229B411B0FB5DA002C779C /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 40229B401B0FB5DA002C779C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4029AE911B0E7F170061926A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402295121B0F80D3002C779C /* skype.png in Resources */,
+				4029AEB91B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg in Resources */,
+				402295091B0F718D002C779C /* emptyBackground.png in Resources */,
 				4029AE9E1B0E7F170061926A /* Main.storyboard in Resources */,
 				4029AEA31B0E7F170061926A /* LaunchScreen.xib in Resources */,
 				4029AEA01B0E7F170061926A /* Images.xcassets in Resources */,
+				4022950F1B0F7A88002C779C /* white.jpg in Resources */,
+				4022950D1B0F7A88002C779C /* black.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +285,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4029AEBA1B0E814A0061926A /* Tiger-Iris-with-charming-cub-620x586.jpg in Resources */,
+				402295101B0F7A88002C779C /* white.jpg in Resources */,
+				402295131B0F80D3002C779C /* skype.png in Resources */,
+				4022950A1B0F718D002C779C /* emptyBackground.png in Resources */,
+				4022950E1B0F7A88002C779C /* black.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +316,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		40229B431B0FB609002C779C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 40229B421B0FB609002C779C /* PBXContainerItemProxy */;
+		};
 		4029AEAA1B0E7F170061926A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4029AE921B0E7F170061926A /* ImageMasks */;
@@ -411,6 +504,7 @@
 				4029AEB41B0E7F170061926A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4029AEB51B0E7F170061926A /* Build configuration list for PBXNativeTarget "ImageMasksTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +513,7 @@
 				4029AEB71B0E7F170061926A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
